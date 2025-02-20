@@ -193,7 +193,7 @@ body, h1, p, ul, li, a {
     .bottom-nav {
         position: fixed;
         /* bottom: 0; */
-        bottom: 650px;
+        top: 0;        
         left: 0;
         width: 100%;
         background: #1e1e2f;
