@@ -8,7 +8,11 @@ body, h1, p, ul, li, a {
     font-style: normal;
 }
 
-
+#deepstack{
+    font-family: "Bebas Neue", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
 
 /* Navbar */
 .navbar {
@@ -448,11 +452,11 @@ body, h1, p, ul, li, a {
         margin-right: 3rem;
         margin-top: 9rem;
         border-radius: 20%;
-        transform: translateY(-50%) !important; /* Ensures no shifting */
+        transform: translateY(-50%) !important; 
     }
 
     .announcement-panel:hover {
-        transform: translateY(-50%) !important; /* Prevents any hover effect */
+        transform: translateY(-50%) !important; 
     }
 }
 
@@ -461,7 +465,7 @@ body, h1, p, ul, li, a {
 .footer {
     background: #0d0d1a;
     color: white;
-    padding: -5px 10px;
+    padding: 25px 10px;
     text-align: center;
     font-size: 16px;
 }
@@ -512,7 +516,7 @@ body, h1, p, ul, li, a {
 /* Default Footer (Hidden on Mobile) */
 @media (max-width: 768px) {
     .footer {
-        display: none; /* Hide original footer */
+        display: none; 
     }
 }
 
