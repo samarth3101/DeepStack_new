@@ -144,9 +144,9 @@ body, h1, p, ul, li, a {
 /* responsiveness */
 @media (max-width: 768px) {
 
-    .navbar {
-        display: none; /* Hide top navbar on mobile */
-    }
+    /* .navbar {
+        display: none; 
+    } */
     
     .bottom-nav {
         position: fixed;
@@ -452,10 +452,6 @@ body, h1, p, ul, li, a {
         margin-right: 3rem;
         margin-top: 9rem;
         border-radius: 20%;
-        transform: translateY(-50%) !important; 
-    }
-
-    .announcement-panel:hover {
         transform: translateY(-50%) !important; 
     }
 }
