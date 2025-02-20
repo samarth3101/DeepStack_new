@@ -500,9 +500,9 @@ body, h1, p, ul, li, a {
 
 @media (max-width: 320px) {
     .home {
-        /* height: auto; */
-        height: 72vh;
-        padding: 40px 20px;
+        height: auto;
+        /* height: 72vh; */
+        padding: 230px 60px;
     }
 
     .content{
